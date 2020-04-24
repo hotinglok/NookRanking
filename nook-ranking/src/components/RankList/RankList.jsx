@@ -3,7 +3,7 @@ import React from 'react';
 
 const RankList = ({ data }) => {
   return (
-    <div>hi</div>
+    <div>I am the RankList component</div>
   );
 }
 

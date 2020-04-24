@@ -3,7 +3,7 @@ import React from 'react';
 
 const Search = ({ data }) => {
   return (
-    <div>hi</div>
+    <div>I am the Search component</div>
   );
 }
 

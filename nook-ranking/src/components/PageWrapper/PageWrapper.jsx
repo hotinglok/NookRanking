@@ -3,12 +3,15 @@ import RankList from '../RankList/RankList';
 import Search from '../Search/Search';
 
 const PageWrapper = ({ data }) => {
-  console.log(data);
+  const villagers = data.map((villager, i) => (
+    <p key={i}>{villager.name_en}</p>
+))
   return (
-    <body>
+    <div className="page-wrapper">
       <Search></Search>
       <RankList></RankList>
-    </body>
+      {villagers}
+    </div>
   );
 }
 
