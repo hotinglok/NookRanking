@@ -1,4 +1,5 @@
 import React from 'react';
+import './PageWrapper.css';
 import IslanderCard from '../IslanderCard/IslanderCard'
 import RankList from '../RankList/RankList';
 import Search from '../Search/Search';
