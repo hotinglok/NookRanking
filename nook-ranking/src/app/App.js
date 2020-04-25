@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from '../assets/images/logo.svg';
 import './App.css';
+import PageWrapper from '../components/PageWrapper/PageWrapper';
+import data from '../data/villager-data.json';
 
 function App() {
+  const villagerData = Object.keys(data).map(key => {
+    return data[key];
+  });
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PageWrapper data={villagerData}/>
     </div>
   );
 }
