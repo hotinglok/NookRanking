@@ -10,7 +10,7 @@ const PageWrapper = ({ data }) => {
     <IslanderCard
       key={i}
       name={villager.name_en}
-      imageHref={`${process.env.PUBLIC_URL}/assets/images/${villager.name_en}.jpg`}
+      imageHref={`${process.env.PUBLIC_URL}/assets/villager-icon/${villager.name_en.split(' ').join('_')}.png`}
     />
   ));
 
