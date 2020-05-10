@@ -507,7 +507,7 @@
         "initial phrase": "nipper (NL, NH)",
         "initial clothes": [
             "Red Aloha Shirt (GCN)",
-            ", Tropical Tee  (NL)"
+            "Tropical Tee  (NL)"
         ],
         "home request": "A stained-glass tearoom",
         "skill": "Brainteasers",
@@ -3875,7 +3875,33 @@
         "name_jp": "\u3051\u3093 Ken",
         "caption": "\u201cOld longings never truly fade.\u201d",
         "gender": "Male",
-        "personality": "Lazy (AC)Cranky (NL)"
+        "personality": "Lazy (AC)Cranky (NL)",
+        "species": "Wolf",
+        "birthday": [
+            "February 17",
+            "Aquarius"
+        ],
+        "initial phrase": "ohmmm",
+        "initial clothes": [
+            "Blue Aloha Shirt (AFe+)",
+            "Sweatervest (NL)"
+        ],
+        "skill": "Speed reading",
+        "goal": "Writer",
+        "coffee": [
+            "Mocha",
+            "A little bit of milk",
+            "1 spoonful of sugar"
+        ],
+        "style": "Official",
+        "favorite song": "K.K. Lament",
+        "appearances": [
+            "AF+",
+            "AC",
+            "AFe+",
+            "NL",
+            "NH"
+        ]
     },
     "Doc": {
         "name_en": "Doc",
@@ -3891,7 +3917,7 @@
         "initial phrase": "ol' bunny",
         "initial clothes": [
             "Vertigo Tee (AFe+ - NL)",
-            "Red Flannel Shirt(NH)"
+            "Red Flannel Shirt (NH)"
         ],
         "home request": "A fun place for books",
         "skill": "Typing",
@@ -5207,7 +5233,7 @@
         "caption": "\u201cSmiles are free.\u201d",
         "gender": "Female",
         "personality": "Normal",
-        "species": "Red-crowned Crane",
+        "species": "Ostrich",
         "birthday": [
             "January 15",
             "Capricorn"
@@ -6042,34 +6068,7 @@
         "personality": "Lazy",
         "species": "Bird",
         "birthday": [
-            "Virgo"
-        ],
-        "initial phrase": "Chuuuuurp",
-        "initial clothes": [
-            "green tie dye shirt"
-        ],
-        "skill": "Staying up late",
-        "goal": "Poet",
-        "coffee": [
-            "Mocha",
-            "A little bit of milk",
-            "1 spoonful of sugar"
-        ],
-        "favorite song": "K.K. Song",
-        "appearances": [
-            "AFe+",
-            "NL",
-            "NH"
-        ]
-    },
-    "Jakey": {
-        "name_en": "Jacob",
-        "name_jp": "\u30b8\u30e3\u30b3\u30c6\u30f3 Jakoten",
-        "caption": "\u201cYour greatest strength can be your greatest weakness.\u201d",
-        "gender": "Male",
-        "personality": "Lazy",
-        "species": "Bird",
-        "birthday": [
+        	"August 20",
             "Virgo"
         ],
         "initial phrase": "Chuuuuurp",
@@ -8549,7 +8548,7 @@
             "NH"
         ]
     },
-    "O%27Hare": {
+    "O'Hare": {
         "name_en": "O'Hare",
         "name_jp": "\u30b5\u30f3\u30c8\u30b9 Santosu",
         "caption": "\u201cIt's not old; it's vintage.\u201d",
@@ -11422,42 +11421,6 @@
         ]
     },
     "Spork": {
-        "name_en": "Spork",
-        "name_jp": "\u30dd\u30fc\u30af P\u014dku",
-        "caption": "\u201cIt's never too late for a snack.\u201d",
-        "gender": "Male",
-        "personality": "Lazy",
-        "species": "Pig",
-        "birthday": [
-            "September 3",
-            "Virgo"
-        ],
-        "initial phrase": "snork",
-        "initial clothes": [
-            "Jade Plaid Tee"
-        ],
-        "home request": "A school cafeteria",
-        "skill": "Chugging milk",
-        "goal": "Poet",
-        "coffee": [
-            "Kilamanjaro",
-            "Lots of milk",
-            "Three spoonfuls of sugar"
-        ],
-        "style": "Basic",
-        "favorite song": "K.K. Mambo",
-        "appearances": [
-            "AF",
-            "AF+",
-            "AC",
-            "AFe+",
-            "CF",
-            "NL",
-            "HHD",
-            "NH"
-        ]
-    },
-    "Crackle": {
         "name_en": "Spork",
         "name_jp": "\u30dd\u30fc\u30af P\u014dku",
         "caption": "\u201cIt's never too late for a snack.\u201d",
