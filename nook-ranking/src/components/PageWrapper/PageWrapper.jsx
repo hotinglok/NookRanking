@@ -20,7 +20,12 @@ const PageWrapper = ({ data }) => {
   const SortableList = SortableContainer(({items}) => {
     return (
       <div className="page-wrapper">
-      {items.map((value, i) => (<SortableItem key={`item-${value.name_en}`} index={i} villager={value} />))}
+        {items.map((value, i) => (
+          <SortableItem
+            key={`item-${value.name_en}`}
+            index={i}
+            villager={value} />
+        ))}
       </div>
     )
   });
@@ -30,7 +35,12 @@ const PageWrapper = ({ data }) => {
   };
 
   return (
-    <SortableList items={items} onSortEnd={onSortEnd} axis={"xy"} />
+    <SortableList
+      items={items}
+      onSortEnd={onSortEnd}
+      axis={"xy"}
+      useWindowAsScrollContainer={true}
+    />
   );
 }
 
