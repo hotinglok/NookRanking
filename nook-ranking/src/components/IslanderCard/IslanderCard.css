@@ -1,6 +1,8 @@
 .islander-card {
   width: 100px;
   margin: 0 auto 0 auto;
+  cursor: pointer;
+  text-align: center;
 }
 
 .islander-card img {
