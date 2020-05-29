@@ -1,7 +1,7 @@
 .islander-card {
   width: 100px;
   margin: 0 auto 0 auto;
-  cursor: pointer;
+  cursor: move;
   text-align: center;
 }
 

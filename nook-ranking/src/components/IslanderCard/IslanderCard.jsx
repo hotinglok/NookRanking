@@ -2,13 +2,12 @@ import React, { useState, useRef } from 'react';
 import './IslanderCard.css';
 import CheckBox from '../CheckBox/CheckBox';
 
-const IslanderCard = ({ name, imageHref }) => {
+const IslanderCard = ({ name, imageHref, checkbox}) => {
 
   const inList = useRef();
 
   const handleClick = () => {
-  inList.current.checked = !inList;
-
+    inList.current.checked = !inList;
   };
 
   return (
@@ -16,7 +15,7 @@ const IslanderCard = ({ name, imageHref }) => {
       <div className="islander-card">
         <img src={imageHref} alt={`${name} Islander`}/>
         <h2>{name}</h2>
-        <CheckBox handleClick={handleClick} checked={inList} />
+        {checkbox && <CheckBox handleClick={handleClick} checked={inList} />}
       </div>
     </div>
   );

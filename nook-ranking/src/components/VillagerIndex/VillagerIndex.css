@@ -1,0 +1,8 @@
+.villager-index {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  border-radius: 100px;
+  background-color: #f5f2e9;
+  padding: 50px;
+  margin: 0 5% 0 5%;
+}

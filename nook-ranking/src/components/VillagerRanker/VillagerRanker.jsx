@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import {SortableContainer, SortableElement} from 'react-sortable-hoc';
 import arrayMove from 'array-move';
-import './PageWrapper.css';
+import './VillagerRanker.css';
 import IslanderCard from '../IslanderCard/IslanderCard'
-import RankList from '../RankList/RankList';
-import Search from '../Search/Search';
 
-const PageWrapper = ({ data }) => {
+const VillagerRanker = ({ data }) => {
 
   const [items, setItems] = useState(data);
 
@@ -19,7 +17,7 @@ const PageWrapper = ({ data }) => {
 
   const SortableList = SortableContainer(({items}) => {
     return (
-      <div className="page-wrapper">
+      <div className="villager-ranker">
         {items.map((value, i) => (
           <SortableItem
             key={`item-${value.name_en}`}
@@ -44,4 +42,4 @@ const PageWrapper = ({ data }) => {
   );
 }
 
-export default PageWrapper;
+export default VillagerRanker;
